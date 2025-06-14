@@ -1,5 +1,4 @@
 services:
-services:
   - name: QSAF-WebUI
     type: web
     env: docker
