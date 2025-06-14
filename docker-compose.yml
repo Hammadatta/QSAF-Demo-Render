@@ -1,6 +1,10 @@
-version: '3'
+version: "3.8"
 services:
   webui:
-    image: openwebui/open-webui
+    build: ./app
+    ports:
+      - "3000:3000"
   dashboard:
-    image: streamlit/qorvex-dashboard
+    build: ./dashboard
+    ports:
+      - "8501:8501"
