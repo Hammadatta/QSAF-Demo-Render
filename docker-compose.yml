@@ -1,0 +1,6 @@
+version: '3'
+services:
+  webui:
+    image: openwebui/open-webui
+  dashboard:
+    image: streamlit/qorvex-dashboard

@@ -1,0 +1,5 @@
+services:
+  - name: QSAF-WebUI
+    type: web
+    env: docker
+    dockerfilePath: ./docker-compose.yml
